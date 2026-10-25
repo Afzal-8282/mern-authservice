@@ -4,7 +4,9 @@
   "description": "A user management service",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node src/server.js",
+    "format:check": "prettier --check \"src/**/*.ts\"",
+    "format:fix": "prettier --write \"src/**/*.ts\""
   },
   "keywords": [],
   "author": "Afzal Ansari",
@@ -12,6 +14,7 @@
   "type": "commonjs",
   "devDependencies": {
     "@types/node": "^26.6.5",
+    "prettier": "^3.9.10",
     "typescript": "^7.0.2"
   }
 }

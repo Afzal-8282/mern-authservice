@@ -1,0 +1,15 @@
+# Build output directories
+dist/
+build/
+out/
+
+# Dependency directories
+node_modules/
+
+# Test coverage
+coverage/
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
