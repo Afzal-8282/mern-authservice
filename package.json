@@ -6,15 +6,21 @@
   "scripts": {
     "dev": "node src/server.js",
     "format:check": "prettier --check \"src/**/*.ts\"",
-    "format:fix": "prettier --write \"src/**/*.ts\""
+    "format:fix": "prettier --write \"src/**/*.ts\"",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "keywords": [],
   "author": "Afzal Ansari",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@types/node": "^26.6.5",
+    "eslint": "^10.13.0",
+    "eslint-config-prettier": "^10.1.8",
     "prettier": "^3.9.10",
-    "typescript": "^7.0.2"
+    "typescript": "^5.2.2",
+    "typescript-eslint": "^8.72.0"
   }
 }
